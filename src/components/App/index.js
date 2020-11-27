@@ -4,9 +4,14 @@ import "./App.css";
 import List from "../List/index.js";
 import Input from "../Input/index.js";
 import DeleteAllButton from "../DeleteListButton/index.js";
+import LoginButton from "../Login/index";
+import LogoutButton from "../LogOut/index";
+import Profile from "../UserProfile/index";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
   const [list, setList] = useState([]);
+  const { isLoading, isAuthenticated } = useAuth0();
 
   function addItemToList(text) {
     setList([...list, text]);
@@ -30,12 +35,22 @@ function App() {
   }
 
   // style={{fontFamily: `${font}`}}
+  if (isLoading) return <div>is loading...</div>;
+  if (!isAuthenticated)
+    return (
+      <div>
+        {" "}
+        <h1>To Do List</h1>
+        <LoginButton />
+      </div>
+    );
 
   return (
     <div className="App">
       <header>
         <h1>To Do List</h1>
       </header>
+      <Profile />
       <Input className="input" addItemToList={addItemToList} />
       <List
         array={list}
@@ -43,6 +58,8 @@ function App() {
         applyStrikeThrough={applyStrikeThrough}
       />
       <DeleteAllButton deleteAllListItems={deleteAllListItems} />
+
+      <LogoutButton />
     </div>
   );
 }
