@@ -1,0 +1,10 @@
+.deleteAll {
+  background-color: firebrick;
+  border-radius: 10px;
+  transform: scale(1.4);
+}
+
+.deleteAll:hover {
+  transform: scale(1.5);
+  background-color: crimson;
+}

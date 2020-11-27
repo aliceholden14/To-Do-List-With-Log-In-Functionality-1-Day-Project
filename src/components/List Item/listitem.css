@@ -1,0 +1,9 @@
+.deleteItemButton {
+  background-color: darksalmon;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.deleteItemButton:hover {
+  transform: scale(1.1);
+}

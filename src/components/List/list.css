@@ -1,0 +1,12 @@
+.listBox {
+  padding-left: 45px;
+  padding-right: 25px;
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+}

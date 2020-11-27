@@ -1,0 +1,14 @@
+.inputButton {
+  background-color: #fdcb6e;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.inputButton:hover {
+  transform: scale(1.1);
+}
+
+input {
+  border-radius: 10px;
+}
