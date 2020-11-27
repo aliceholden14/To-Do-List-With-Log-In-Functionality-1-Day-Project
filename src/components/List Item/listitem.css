@@ -1,9 +1,13 @@
 .deleteItemButton {
-  background-color: darksalmon;
+  color: #f6f5f1;
+  background-color: #898b8a;
+  border: 2px solid #f6f5f1;
+  outline: none;
   border-radius: 10px;
   margin: 10px;
 }
 
 .deleteItemButton:hover {
   transform: scale(1.1);
+  background-color: darkgrey;
 }

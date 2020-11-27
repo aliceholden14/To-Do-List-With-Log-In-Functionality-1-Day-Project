@@ -1,10 +1,13 @@
 .deleteAll {
-  background-color: firebrick;
+  color: #f6f5f1;
+  background-color: #898b8a;
+  border: 2px solid #f6f5f1;
+  outline: none;
   border-radius: 10px;
   transform: scale(1.4);
 }
 
 .deleteAll:hover {
   transform: scale(1.5);
-  background-color: crimson;
+  background-color: darkgrey;
 }

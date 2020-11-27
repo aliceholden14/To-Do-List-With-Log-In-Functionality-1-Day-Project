@@ -1,12 +1,19 @@
 .inputButton {
-  background-color: #fdcb6e;
+  transform: scale(1.1);
   margin: 10px;
-  border-radius: 10px;
-  border: none;
+  background-color: darkgrey;
+}
+
+#input {
+  outline: none;
 }
 
 .inputButton:hover {
-  transform: scale(1.1);
+  border-radius: 10px;
+  color: #f6f5f1;
+  background-color: #898b8a;
+  border: 2px solid #f6f5f1;
+  outline: none;
 }
 
 input {

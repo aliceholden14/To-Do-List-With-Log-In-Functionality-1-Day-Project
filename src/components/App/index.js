@@ -5,7 +5,6 @@ import List from "../List/index.js";
 import Input from "../Input/index.js";
 import DeleteAllButton from "../DeleteListButton/index.js";
 import LoginButton from "../Login/index";
-import LogoutButton from "../LogOut/index";
 import Profile from "../UserProfile/index";
 import { useAuth0 } from "@auth0/auth0-react";
 
@@ -58,8 +57,6 @@ function App() {
         applyStrikeThrough={applyStrikeThrough}
       />
       <DeleteAllButton deleteAllListItems={deleteAllListItems} />
-
-      <LogoutButton />
     </div>
   );
 }

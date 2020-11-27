@@ -1,0 +1,36 @@
+#profile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: 0;
+  line-height: 90%;
+  letter-spacing: -1px;
+  text-align: center;
+  padding: 20px;
+  background-color: #898b8a;
+  border: 2px solid #f6f5f1;
+  border-radius: 10%;
+}
+
+#profileimg {
+  border-radius: 50%;
+  width: 50px;
+}
+
+#email {
+  color: #f6f5f1;
+}
+#button {
+  color: #f6f5f1;
+  background-color: #898b8a;
+  border: 2px solid #f6f5f1;
+  outline: none;
+}
+
+#button:hover {
+  background-color: darkgrey;
+}
+
+#title {
+  color: #f6f5f1;
+  font-size: 20px;
+}

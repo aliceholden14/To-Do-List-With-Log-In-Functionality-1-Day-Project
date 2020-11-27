@@ -6,6 +6,7 @@ function Input({ addItemToList }) {
   return (
     <div>
       <input
+        id="input"
         onChange={(e) => {
           setText(e.target.value);
         }}
@@ -16,7 +17,7 @@ function Input({ addItemToList }) {
           addItemToList(text);
         }}
       >
-        Add to list!
+        Add To List!
       </button>
     </div>
   );

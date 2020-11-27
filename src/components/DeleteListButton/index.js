@@ -4,7 +4,7 @@ import "./deleteListButton.css";
 function DeleteAllButton({ deleteAllListItems }) {
   return (
     <button className="deleteAll" onClick={deleteAllListItems}>
-      Delete all
+      Delete All
     </button>
   );
 }

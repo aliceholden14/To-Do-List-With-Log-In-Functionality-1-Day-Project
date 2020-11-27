@@ -1,5 +1,5 @@
 body {
-  background-color: #ffeaa7;
+  background-color: #16a596;
   min-height: 70vh;
   padding: 1rem;
   box-sizing: border-box;
@@ -21,10 +21,11 @@ h1 {
 
 button {
   padding: 5px;
-  border: none;
   font-family: "Architects Daughter", cursive;
-  text-decoration: none;
-  padding-bottom: 7px;
-  border-radius: 5px;
-  background-color: #ffeaa7;
+  color: #f6f5f1;
+  background-color: #898b8a;
+  border: 2px solid #f6f5f1;
+  outline: none;
+  border-radius: 10px;
+  transform: scale(1.4);
 }
