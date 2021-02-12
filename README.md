@@ -1,17 +1,14 @@
-# Auth Hackathon
+# To Do List using Log-in functionality
 
-Today you can build whatever you like! The only requirement is that a user must have to log in to use it.
+For this one day project, Bradley Smith and I worked together on producing an app with the ability for users to log in. We were given the option of any app, so long as we used a service to provide authorisation to our app.
 
-Today we will be using 3rd party services to manage our users, and integrating them with our apps. This means that we wont have to handle password hashing on our server.
+As a solution we decided to create a to do list app that used [Auth0](https://auth0.com/) services for our log in functionality.
 
-## Auth options
+## Instructions
 
-**Auth0**
+If git cloning, please do an NPM install in your terminal followed by NPM run start.
 
-[Auth0](https://auth0.com/) is a service that will allow you to have users sign into your project. The docs are good and [this tutorial](https://auth0.com/docs/quickstart/spa/react) will help you integrate it with react.
+## Future Goals
 
-**Firebase**
-
-[Firebase](https://firebase.google.com/) can also serve as a drop in auth solution and can also provide many other services. A little more thought will be required for you to integrate it into react. [This will tell you about how to use it on your page](https://firebase.google.com/docs/web/setup). You will have to search for the Auth sections. Do not go down the cli route for today...
-
-Happy hacking!
+- Deploy the app.
+- Refactor code and add comments.
